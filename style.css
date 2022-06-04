@@ -36,11 +36,12 @@ body {
 }
 .board > button {
     border:  none;
-    border-radius: 3vw;
+    border-radius: 12.5vw;
     font-weight: bold;
     font-size: 6vw;
     background: none;
 }
-button:hover {
-    border: solid;
+button:active {
+    z-index: 20;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(215,45,253,0.25) 100%);
 }
