@@ -1,0 +1,48 @@
+@font-face {
+    src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
+    font-family: "PT_Sans Bold";
+}
+@font-face {
+    src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
+    font-family: "PT_Sans Regular";
+}
+
+body {
+    background-color: rgb(238,238,238);
+    background-position: center;
+    width: 90vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#disp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100vw;
+    padding: 5vh 5vw 5vh 5vw;
+    text-align: right;
+}
+.board {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(215,45,253,0.24443280730260852) 100%);
+    border-radius: 5vw;
+    width: 100vw;
+    padding: 5vh 5vw 5vh 5vw;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw 20vw;
+}
+.board > button {
+    border:  none;
+    border-radius: 3vw;
+    font-weight: bold;
+    font-size: 6vw;
+    background: none;
+}
+button:hover {
+    border: solid;
+}
