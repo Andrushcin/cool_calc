@@ -15,21 +15,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin: 0;
 }
 #disp {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     font-weight: bold;
-    font-size: 50px;
-    padding: 5vh 0 5vh 0;
+    font-size: 6vw;
+    padding: 5vh 5vw 5vh 5vw;
     text-align: right;
 }
 .board {
     background: rgb(34,193,195);
     background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(215,45,253,0.24443280730260852) 100%);
     border-radius: 5vw;
-    padding: 5vh 0 5vh 0;
     display: grid;
     grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-rows: 20vw 20vw 20vw 20vw 20vw;
