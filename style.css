@@ -1,12 +1,3 @@
-@font-face {
-    src: url('../fonts/PT_Sans/PTSans-Bold.ttf');
-    font-family: "PT_Sans Bold";
-}
-@font-face {
-    src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
-    font-family: "PT_Sans Regular";
-}
-
 body {
     background-color: rgb(238,238,238);
     background-position: center;
@@ -22,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 7vw;
     padding: 5vh 5vw 5vh 5vw;
     text-align: right;
 }
@@ -38,7 +29,7 @@ body {
     border:  none;
     border-radius: 12.5vw;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 7vw;
     background: none;
 }
 button:active {

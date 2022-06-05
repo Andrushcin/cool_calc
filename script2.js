@@ -19,10 +19,8 @@ window.onclick = function(Event) {
 			if (symbol == "Del") {
 				res.innerHTML = '0';
 			} else {
-	    		if (res.innerHTML == '0') {
-	    			if (symbol != ".") {
+	    		if ((res.innerHTML == '0' && symbol != ".") || (res.innerHTML == "Error")) {
 	    				res.innerHTML = symbol;
-	    			}
 	    		} else {
 			    	var old_result = res.innerHTML;
 			    	res.innerHTML = old_result + symbol;
