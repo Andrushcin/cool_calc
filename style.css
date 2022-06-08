@@ -8,14 +8,20 @@ body {
     justify-content: flex-end;
     margin: 0;
 }
-#disp {
+.visible {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     font-weight: bold;
-    font-size: 7vw;
-    padding: 5vh 5vw 5vh 5vw;
     text-align: right;
+}
+#disp {
+    font-size: 7vw;
+    padding: 5vh 5vw 1vh 5vw;
+}
+#res_field {
+    font-size: 7vw;
+    padding: 1vh 5vw 2vh 5vw;
 }
 .board {
     background: rgb(34,193,195);
