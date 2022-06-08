@@ -18,6 +18,7 @@ body {
 #disp {
     font-size: 7vw;
     padding: 5vh 5vw 1vh 5vw;
+    overflow: auto;
 }
 #res_field {
     font-size: 7vw;
